@@ -1,0 +1,17 @@
+{
+  "name": "n2.cc_snap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cc_snap_es6.js",
+  "scripts": {
+    "build": "babel ./*.js --out-dir ../res --out-file-extension .es5.js --presets @babel/preset-env",
+    "build:dev": "babel ./*.js --watch --out-dir ../res --out-file-extension .es5.js --presets @babel/preset-env"
+  },
+  "author": "ANTIREAL",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8"
+  }
+}
