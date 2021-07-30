@@ -1,3 +1,3 @@
-# n2.cc_snap
+# n2.cc_modulator
 
-snaps an incoming MIDI CC to 1-8 definable values, with a controllable deadzone & transition time.
+takes an incoming cc value & allows you to assign it to any live native control, bypassing the need for midi learn support
